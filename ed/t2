@@ -1,0 +1,9 @@
+r file1
+r file1
+p
+1 i line 1 inserted
+1 d
+0 i    first line in file
+f file
+1,3 d
+p
