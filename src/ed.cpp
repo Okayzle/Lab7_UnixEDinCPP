@@ -127,7 +127,7 @@ void EditorManager::do_command(int start_line, int end_line, char cmd, string te
    //   silently ignored
    switch ( cmd ) {
    case 'r':
-      doc.read(text);
+      // doc.read(text);
       break;
    case 'a':
       doc.append(text);
@@ -145,7 +145,7 @@ void EditorManager::do_command(int start_line, int end_line, char cmd, string te
          doc.remove(start_line, end_line);
       break;
    case 'p':
-      doc.list();               // start, end ignored
+      // doc.list();               // start, end ignored
       break;
    case 'f':
    {
